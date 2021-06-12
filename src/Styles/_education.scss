@@ -1,0 +1,30 @@
+.EducationSection {
+  margin-bottom: 1.5rem;
+  .education {
+    width: 95%;
+    background-color: #191d2b;
+    border-left: 1px solid #2e344e;
+    border-right: 1px solid #2e344e;
+    border-bottom: 1px solid #2e344e;
+    border-top: 8px solid #2e344e;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      border-top: 8px solid #037fff;
+    }
+    .education-content {
+      padding: 1rem;
+      .ed-degree {
+        font-size: 1.5rem;
+        font-weight: 450;
+        position: relative;
+        .ed-duration {
+          padding-bottom: 1rem;
+          margin: 1rem 0;
+          font-style: italic;
+          position: relative;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

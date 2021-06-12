@@ -1,0 +1,59 @@
+.ExperienceSection {
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+    width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+  .experience {
+    width: 95%;
+    background-color: #191d2b;
+    border-left: 1px solid #2e344e;
+    border-right: 1px solid #2e344e;
+    border-bottom: 1px solid #2e344e;
+    border-top: 8px solid #2e344e;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      border-top: 8px solid #037fff;
+    }
+    .experience-content {
+      padding: 1rem;
+      .e-title {
+        font-size: 1.9rem;
+        font-weight: 450;
+        position: relative;
+      }
+      .e-duration {
+        padding-bottom: 1rem;
+        margin: 1rem 0;
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background-color: #2e344e;
+          width: 22%;
+          height: 0.09rem;
+        }
+      }
+      .e-text {
+        padding-left: 1rem;
+        text-decoration: none;
+        // justify-content: left;
+      }
+    }
+  }
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  @media screen and (max-width: 1400px) {
+    flex-direction: column;
+  }
+}
