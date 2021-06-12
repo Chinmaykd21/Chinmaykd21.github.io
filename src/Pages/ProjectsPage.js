@@ -12,7 +12,7 @@ const allCategories = [
 ];
 
 function ProjectsPage() {
-  const [categories, setCategories] = useState(allCategories);
+  const [categories] = useState(allCategories);
   const [menuItems, setMenuItems] = useState(projects);
 
   const filter = (category) => {

@@ -6,9 +6,14 @@
     height: 50vh;
     width: 100%;
     img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100%;
-      object-fit: cover;
+      // object-fit: cover;
       height: 100%;
+      border: 8px groove white;
+      overflow: hidden;
     }
   }
 

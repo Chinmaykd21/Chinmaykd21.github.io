@@ -4,7 +4,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -26,18 +25,38 @@ function HomePage() {
           including versions of Lorem Ipsum.
         </p>
         <div className="icons">
-          <Link className="icon-holder">
+          <a
+            className="icon-holder"
+            href="https://www.facebook.com/chinmay.kulkarni.7921"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-          </Link>
-          <Link className="icon-holder">
+          </a>
+          <a
+            className="icon-holder"
+            href="https://github.com/Chinmaykd21"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
-          </Link>
-          <Link className="icon-holder">
+          </a>
+          <a
+            className="icon-holder"
+            href="https://www.linkedin.com/in/chinmaykulkarni21"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />
-          </Link>
-          <Link className="icon-holder">
+          </a>
+          <a
+            className="icon-holder"
+            href="https://twitter.com/chinmaykd21"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faTwitter} className="icon tw" />
-          </Link>
+          </a>
         </div>
       </header>
     </div>

@@ -22,6 +22,14 @@ const portfolios = [
   },
   {
     id: 3,
+    category: "React Js",
+    link: "https://github.com/Chinmaykd21/portfolio",
+    icon: "GitHub",
+    image: port1,
+    title: "Personal Portfolio website using React, HTML5, SCSS",
+  },
+  {
+    id: 4,
     category: "Python",
     link: "https://github.com/Chinmaykd21/Computer_Networks_UGA/tree/master/CN_Project_1",
     icon: "GitHub",
@@ -29,7 +37,7 @@ const portfolios = [
     title: "Computer Networks - Implement traceroute using Python",
   },
   {
-    id: 4,
+    id: 5,
     category: "Python",
     link: "https://github.com/Chinmaykd21/Computer_Networks_UGA/tree/master/CN_Project_2",
     icon: "GitHub",
@@ -37,7 +45,7 @@ const portfolios = [
     title: "Computer Networks - Implement dns-forwarder using Python",
   },
   {
-    id: 5,
+    id: 6,
     category: "Python",
     link: "https://github.com/Chinmaykd21/Computer_Networks_UGA/tree/master/CN_Project_3",
     icon: "GitHub",
@@ -45,21 +53,13 @@ const portfolios = [
     title: "Computer Networks - Implement tcp-traceroute using Python",
   },
   {
-    id: 6,
+    id: 7,
     category: "Web Application",
     link: "www.youtube.com",
     icon: "GitHub",
     image: port1,
     title: "Developing a web application using concepts of DBMS",
   },
-  // {
-  //   id: 7,
-  //   category: "React Js",
-  //   link: "www.youtube.com",
-  //   icon: "GitHub",
-  //   image: port1,
-  //   title: "Personal Portfolio website using React, HTML5, CSS",
-  // },
 ];
 
 export default portfolios;
