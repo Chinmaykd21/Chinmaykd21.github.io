@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ba3d6245.chunk.css",
+    "main.js": "/portfolio/static/js/main.c6c6a69f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c6c6a69f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d6331d23.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d6331d23.js.map",
+    "static/js/2.d387e4ce.chunk.js": "/portfolio/static/js/2.d387e4ce.chunk.js",
+    "static/js/2.d387e4ce.chunk.js.map": "/portfolio/static/js/2.d387e4ce.chunk.js.map",
+    "static/js/3.8446ad2f.chunk.js": "/portfolio/static/js/3.8446ad2f.chunk.js",
+    "static/js/3.8446ad2f.chunk.js.map": "/portfolio/static/js/3.8446ad2f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.ba3d6245.chunk.css.map": "/portfolio/static/css/main.ba3d6245.chunk.css.map",
+    "static/js/2.d387e4ce.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d387e4ce.chunk.js.LICENSE.txt",
+    "static/media/GeorgiaUniversity.8598b18b.jpg": "/portfolio/static/media/GeorgiaUniversity.8598b18b.jpg",
+    "static/media/MumbaiUniversity.a20a8c5c.png": "/portfolio/static/media/MumbaiUniversity.a20a8c5c.png",
+    "static/media/about.9c068071.jpg": "/portfolio/static/media/about.9c068071.jpg",
+    "static/media/avatar.e627f564.jpg": "/portfolio/static/media/avatar.e627f564.jpg",
+    "static/media/App.scss": "/portfolio/static/media/dots.9978678b.svg",
+    "static/media/emailme.a60657eb.svg": "/portfolio/static/media/emailme.a60657eb.svg",
+    "static/media/location.5cd6776e.svg": "/portfolio/static/media/location.5cd6776e.svg",
+    "static/media/maya-1.f370e251.jpg": "/portfolio/static/media/maya-1.f370e251.jpg",
+    "static/media/phone.ef86e22a.svg": "/portfolio/static/media/phone.ef86e22a.svg",
+    "static/media/port1.65d6ecfd.jpg": "/portfolio/static/media/port1.65d6ecfd.jpg",
+    "static/media/port2.4aa0b2ba.jpg": "/portfolio/static/media/port2.4aa0b2ba.jpg",
+    "static/media/port3.7f41458f.jpg": "/portfolio/static/media/port3.7f41458f.jpg",
+    "static/media/softwareEngineer.155a5ff7.svg": "/portfolio/static/media/softwareEngineer.155a5ff7.svg",
+    "static/media/uga.0d609a6e.svg": "/portfolio/static/media/uga.0d609a6e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6331d23.js",
+    "static/js/2.d387e4ce.chunk.js",
+    "static/css/main.ba3d6245.chunk.css",
+    "static/js/main.c6c6a69f.chunk.js"
+  ]
+}
