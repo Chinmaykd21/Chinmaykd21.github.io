@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../img/about.jpg";
+import downloadFile from "../Download/Chinmay_Kulkarni_Resume.pdf";
 
 function ImageSection() {
   return (
@@ -37,7 +38,9 @@ function ImageSection() {
             <p>: 1000 Lakeside Drive, Apt 102, Athens GA 30605, USA</p>
           </div>
         </div>
-        <button className="btn">Download Resume</button>
+        <a href={downloadFile} download>
+          <button className="btn">Download Resume</button>
+        </a>
       </div>
     </div>
   );
