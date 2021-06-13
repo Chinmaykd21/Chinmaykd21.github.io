@@ -4,6 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Typical from "react-typical";
 
 function HomePage() {
   return (
@@ -14,15 +15,23 @@ function HomePage() {
           <span> Chinmay Kulkarni.</span>
         </h1>
         <p className="h-sub-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          {/* Using react-typical component animated the text */}
+          <Typical
+            loop={Infinity}
+            wrapper="b"
+            steps={[
+              "A Software Engineer.",
+              2000,
+              "A Web Developement Enthusiast.",
+              2000,
+              "A Python Developer.",
+              2000,
+              "An Electronics Engineer.",
+              2000,
+              "An Anime Fan.",
+              2000,
+            ]}
+          />
         </p>
         <div className="icons">
           <a
