@@ -23,6 +23,7 @@ function App() {
         <div className="lines-3"></div>
       </div>
       <div className="main-content">
+        {/* <ParticleBackground/ */}
         <div className="content">
           <Switch>
             <Route path="/" exact>
