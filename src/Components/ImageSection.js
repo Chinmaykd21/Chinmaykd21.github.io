@@ -15,43 +15,33 @@ function ImageSection() {
           <span> Chinmay Kulkarni</span>
         </h4>
         <p className="about-text">
-          I am a software engineer with industry experience of working on a
-          large-scale project with multiple team members for 2.5 years. This
-          time period was fruitful for me as it gave me exposure to Software
-          Development Life Cycle (SDLC) and standard Software Development
-          Practices which are followed in the technical industry. Conducted
-          various knowledge transfer sessions to make the move in of the new
-          team members a lot smoother.
+          I am a software engineer with 2.5 years of experience working in the
+          industry on a team-based, large-scale project. As a Software Engineer
+          at Larsen & Toubro Infotech, I gained valuable skills involving
+          multi-team collaboration and leadership, as well as a deeper
+          understanding of work ethics, and most importantly, the impact of
+          effective communication in the IT industry. Additionally, I gained
+          technical experience with Oracle SQL database, IBM Mainframe
+          Technology, and Excel VBA. Apart from my responsibilities as a team
+          member, I took the initiative of conducting and documenting knowledge
+          transfer sessions to ease the onboarding process for new members.
         </p>
         <p className="about-text">
-          While working as a software engineer obtained hands-on experience with
-          Oracle SQL database, Mainframe technology, and Java programming
-          language. Created an automated tool by integrating JCL mainframe and
-          Excel VBA. This automated tool helped team to reduce their manual
-          efforts by 2-3 hours/week. Received the "Employee of The Month" award
-          from the company in the same project in January 2018.
+          I recently obtained my Master's in Computer Science from the
+          University of Georgia, where I worked under the guidance of Prof. In
+          Kee Kim. While working on my masters' project I utilized my knowledge
+          and understanding of Python, Docker Swarm and OpenFaaS to develop, and
+          build/deploy/invoke applications such as Image classification, matrix
+          multiplication, etc., on edge devices respectively.
         </p>
         <p className="about-text">
-          Completed my Masters of Computer Science from the University of
-          Georgia. Took various courses such as Algorithms, Database Management
-          Systems, Computer Networks, Cloud Computing, Special Topics in CSCI,
-          Machine Learning which complimented me to grow my expertise and
-          knowledge in software development. Developed various projects using
-          Java, Python, MySQL, PostgreSQL, play2, JDBC, c++, docker, AWS as a
-          part of the coursework assignments.
-        </p>
-        <p className="about-text">
-          Using Python, Docker swarm, apache-benchmark, shell scripting, and
-          OpenFaaS open-source serverless framework(FaaS) benchmarked edge
-          devices such as NVIDIA Jetson nano & Raspberry pi 4 to investigate
-          performance heterogeneity of real-world serverless and FaaS
-          applications to make an informed decision on an edge device selection
-          under the guidance of prof.In Kee Kim and co-contributor Kaustubh
-          Rajput.
-        </p>
-        <p className="about-text">
-          As I have journied through my under-gradution till my masters, I have
-          worked with different people
+          My programming expertise lies in Python, but I am keen on taking
+          responsibility to continuously develop my technical and knowledge base
+          in an effort to enhance my critical-thinking and problem-solving
+          skills. I am actively learning React JS, and this website is
+          implemented using React, HTML, and CSS. I am currently exploring other
+          projects that require end-to-end development to better understand the
+          process of designing and releasing a web application.
         </p>
         <div className="about-details">
           <div className="left-section">
@@ -66,7 +56,7 @@ function ImageSection() {
             <p>: 26</p>
             <p>: September 21, 1994</p>
             <p>: Indian</p>
-            <p>: 1000 Lakeside Drive, Apt 102, Athens GA 30605, USA</p>
+            <p>: 2165 South Milledge Avenue, Apt E8, Athens GA 30605, USA</p>
           </div>
         </div>
         <a href={downloadFile} download>
