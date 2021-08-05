@@ -34,7 +34,7 @@ function AboutPage() {
           title={"Software Engineer"}
           duration={"Jul 2016 - Dec 2018"}
           text={
-            "Worked as a Software Engineer for Business Insurance client associated with LTI.The project involved providing real-time monitoring of batch programs, resolving batch program failures with its root cause analysis.\nDeveloped, maintained & updated the software solutions as per the customer requirements.\nReceived client appreciation for creating an automation tool, which integrated Mainframe and Excel VBA & reduced the manual efforts by approximately 2-3 hours per week.\nAwarded with an “Employee of the month” award in January 2018 in the same project."
+            "Worked as a Software Engineer for a Business Insurance client associated with LTI.\nThe project involved providing real-time monitoring of batch programs, resolving batch program failures with its root cause analysis using COBOL, JCL, and Oracle SQL.\nDeveloped, maintained & updated the software solutions as per the customer requirements.\nReceived client appreciation for creating an automation tool, which integrated Mainframe and Excel VBA & reduced the manual efforts by approximately 2-3 hours per week.\nAwarded with an “Employee of the month” award in January 2018 in the same project."
           }
         />
         {/* <ExperienceSection
